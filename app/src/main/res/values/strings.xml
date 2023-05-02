@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">News App Compose</string>
+    <string name="nereek_2023">Nereek.io © 2023</string>
+    <string name="news">News</string>
+    <string name="flag_usa">USA flag</string>
+    <string name="flag_fr">FRENCH flag</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="open_in_browser">open in browser</string>
+    <string name="error_no_internet">No Internet Connection</string>
+</resources>
