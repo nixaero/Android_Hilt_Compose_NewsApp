@@ -63,13 +63,17 @@ Several third-party libraries were used to facilitate the development of the app
 
 ## Screenshots
 
-<img alt="App Screenshot" height="960" src="https://docs.google.com/uc?export=download&id=1X07GfnM7E_7v4hOb1_am6BxlJyHSEc_2" width="540"/>
+<p align="center" float="left">
+<img alt="App Screenshot" src="https://docs.google.com/uc?export=download&id=1X07GfnM7E_7v4hOb1_am6BxlJyHSEc_2" width="19%" />
 
-<img alt="App Screenshot" height="960" src="https://docs.google.com/uc?export=download&id=114cGQhUqUXZL4UA0K2hjv4e7YHVqAT0l" width="540"/>
+<img alt="App Screenshot" src="https://docs.google.com/uc?export=download&id=114cGQhUqUXZL4UA0K2hjv4e7YHVqAT0l" width="19%" />
 
-<img alt="App Screenshot" height="960" src="https://docs.google.com/uc?export=download&id=1TP7Govt5N0oj8yo2974IqMMxAZ6FSaTj" width="540"/>
+<img alt="App Screenshot" src="https://docs.google.com/uc?export=download&id=1TP7Govt5N0oj8yo2974IqMMxAZ6FSaTj" width="19%" />
 
-<img alt="App Screenshot" height="960" src="https://docs.google.com/uc?export=download&id=14y9a_iQ6V8RiMjhdxBZ3uR4Zc_yVkSMR" width="540"/>
+<img alt="App Screenshot" src="https://docs.google.com/uc?export=download&id=1NqFKoafiWNqFYt8sdkqR_ZpTtzcGAUZw" width="19%" />
+
+<img alt="App Screenshot" src="https://docs.google.com/uc?export=download&id=14y9a_iQ6V8RiMjhdxBZ3uR4Zc_yVkSMR" width="19%" />
+</p>
 
 ## 🛠 Skills
 Kotlin, Android SDK, Clean Architecture, MVVM, Android Architecture Components, Retrofit, Dagger Hilt, Coroutines, Flow, OkHttp, Moshi, Coil, JetPack Compose, Material Design, Git.
