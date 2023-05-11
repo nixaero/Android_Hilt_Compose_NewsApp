@@ -161,7 +161,7 @@ fun ArticleList(
 
         is Resource.Error -> {
             // Show an error message
-            Text(text = uiState.message, modifier = Modifier.padding(16.dp))
+            Text(text = uiState.errorMessage, modifier = Modifier.padding(16.dp))
         }
     }
 

@@ -1,6 +1,5 @@
 package mob.nereek.compose.domain.usecase.news
 
-import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.catch
@@ -17,7 +16,7 @@ class GetNewsListUseCase @Inject constructor(
 ) {
     operator fun invoke(token: String, country: String): Flow<Resource<List<Article>>> {
         return flow {
-            emit(Resource.Loading()) // emit loading state
+            emit(Resource.Loading) // emit loading state
 
             // call the getTopHeadlines API method
             val newsResponse = newsRepository.getNews(token,country)

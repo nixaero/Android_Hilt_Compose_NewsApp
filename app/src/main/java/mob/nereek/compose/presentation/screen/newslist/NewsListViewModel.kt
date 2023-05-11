@@ -21,7 +21,7 @@ class NewsListViewModel @Inject constructor(
 
 
     // Private MutableStateFlow for articles list
-    private val _news = MutableStateFlow<Resource<List<Article>>>(Resource.Loading())
+    private val _news = MutableStateFlow<Resource<List<Article>>>(Resource.Loading)
     // Public StateFlow for articles list that can only be observed externally
     val news: StateFlow<Resource<List<Article>>> = _news
 
