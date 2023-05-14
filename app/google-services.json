@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "696103014164",
+    "firebase_url": "https://my-project-1543141751572.firebaseio.com",
+    "project_id": "my-project-1543141751572",
+    "storage_bucket": "my-project-1543141751572.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696103014164:android:02a180e2a632cd366dfc01",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696103014164-9koq4dr66l84q2ueqeomuo8obmcivsai.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "f06deb5256ad3c9e950f7a37e9b8775880c3bcd3"
+          }
+        },
+        {
+          "client_id": "696103014164-65nnul35jpsr7gh5246t8ete0qcphhbe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUxz_lXK42rz8CkGorej50V1iKz3Ym0V8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696103014164-65nnul35jpsr7gh5246t8ete0qcphhbe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696103014164:android:a3253d617d8c8fa06dfc01",
+        "android_client_info": {
+          "package_name": "mob.nereek.compose"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696103014164-65nnul35jpsr7gh5246t8ete0qcphhbe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUxz_lXK42rz8CkGorej50V1iKz3Ym0V8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696103014164-65nnul35jpsr7gh5246t8ete0qcphhbe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696103014164:android:2d1c25aa41885be96dfc01",
+        "android_client_info": {
+          "package_name": "mob.nereek.io"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696103014164-65nnul35jpsr7gh5246t8ete0qcphhbe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUxz_lXK42rz8CkGorej50V1iKz3Ym0V8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696103014164-65nnul35jpsr7gh5246t8ete0qcphhbe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
