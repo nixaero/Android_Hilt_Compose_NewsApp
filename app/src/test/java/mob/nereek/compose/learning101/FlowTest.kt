@@ -1,6 +1,5 @@
-package mob.nereek.compose
+package mob.nereek.compose.learning101
 
-import androidx.lifecycle.asLiveData
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.async

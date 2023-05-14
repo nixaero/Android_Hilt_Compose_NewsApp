@@ -1,10 +1,9 @@
-package mob.nereek.compose
+package mob.nereek.compose.usecase
 
 import io.mockk.coEvery
 import io.mockk.mockk
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import mob.nereek.compose.common.Constants
