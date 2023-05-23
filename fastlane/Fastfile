@@ -1,0 +1,45 @@
+default_platform(:android)
+
+platform :android do
+  desc "Runs all the tests"
+  lane :test do
+    gradle(
+      task: "test",
+      properties: {
+        "org.gradle.java.home" => "/Library/Java/JavaVirtualMachines/jdk-17.jdk"
+      }
+    )
+    check_gradle_error
+  end
+
+  desc "Submit a new Beta Build to Crashlytics Beta"
+  lane :beta do
+    gradle(
+      task: "clean assembleRelease",
+      properties: {
+        "org.gradle.java.home" => "/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home"
+      }
+    )
+    crashlytics
+    check_gradle_error
+  end
+
+  desc "Deploy a new version to the Google Play"
+  lane :deploy do
+    gradle(
+      task: "clean assembleRelease",
+      properties: {
+        "org.gradle.java.home" => "/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home"
+      }
+    )
+    upload_to_play_store
+    check_gradle_error
+  end
+
+  private_lane :check_gradle_error do
+    if $?.exitstatus != 0
+      UI.user_error!("Gradle command failed with exit status #{$?.exitstatus}")
+    end
+  end
+end
+
