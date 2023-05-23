@@ -1,5 +1,5 @@
 
-![Logo](https://docs.google.com/uc?export=download&id=1qZl5jfa_CSm_nmpqx-at_FSibt1brLC1)
+![Logo](assets/logo_nereek_compose.png "News App Compose")
 # News App Compose
 
 **News App Compose** is a simple Android application that displays the latest news from the United States and France using the NewsAPI.org API. 
@@ -22,9 +22,7 @@ In addition, the project includes a **DI (Dependency Injection) layer** that pro
 
 Finally, the project also includes a **Common layer** that contains shared classes and methods used by multiple layers of the application. This helps to reduce code duplication and improve consistency across the project.
 
- 
-![App structure](https://docs.google.com/uc?export=download&id=1KRAxO3NV4rhRQP9pjsQDCwZJ0m99e7Ar
-)
+![App structure](assets/app_architecture.png "MVVM Clean Architecture")
 
 The `mob.nereek.compose` follows a well-organized architecture to facilitate the development and maintenance of Android applications, with the aim of creating flexible and long-term maintainable software applications.
 
@@ -46,7 +44,6 @@ You can get your API key by signing up for News API on their website: https://ne
 Several third-party libraries were used to facilitate the development of the application. Here is a list of these libraries and the reasons why they were chosen:
 
 - **Coroutines/Flow**: Asynchronous programming framework for performing non-blocking operations and managing data flows.
-
 - **Dagger Hilt:** Dependency injection library that simplifies the process of managing and injecting dependencies.
 - **Retrofit:** HTTP client for making network requests and handling responses in Android apps.
 - **OkHttp:** Library for sending and receiving HTTP requests and responses, with support for interceptors and asynchronous calls.
@@ -55,8 +52,10 @@ Several third-party libraries were used to facilitate the development of the app
 - **Coil:** Image loading library for Android with support for fetching and caching images from various sources.
 - **Jetpack Compose:** Android UI toolkit for creating composable and declarative UIs.
 - **Material3:** Material Design components built for Jetpack Compose, providing predefined UI elements.
+- **Fastlane**: Automation tool for building, testing, and releasing Android applications.
 
 **\# Libraries for unit testing and instrumentation testing are also included.**
+
 
 **[** *These libraries are up-to-date as of the project's publication date* **]**
 
@@ -64,19 +63,36 @@ Several third-party libraries were used to facilitate the development of the app
 ## Screenshots
 
 <p align="center" float="left">
-<img alt="App Screenshot" src="https://docs.google.com/uc?export=download&id=1X07GfnM7E_7v4hOb1_am6BxlJyHSEc_2" width="19%" />
+<img alt="App Screenshot" src="screenshots/news_compose_screenshot_01.png" width="19%" />
 
-<img alt="App Screenshot" src="https://docs.google.com/uc?export=download&id=114cGQhUqUXZL4UA0K2hjv4e7YHVqAT0l" width="19%" />
+<img alt="App Screenshot" src="screenshots/news_compose_screenshot_02.png" width="19%" />
 
-<img alt="App Screenshot" src="https://docs.google.com/uc?export=download&id=1TP7Govt5N0oj8yo2974IqMMxAZ6FSaTj" width="19%" />
+<img alt="App Screenshot" src="screenshots/news_compose_screenshot_03.png" width="19%" />
 
-<img alt="App Screenshot" src="https://docs.google.com/uc?export=download&id=1NqFKoafiWNqFYt8sdkqR_ZpTtzcGAUZw" width="19%" />
+<img alt="App Screenshot" src="screenshots/news_compose_screenshot_04.png" width="19%" />
 
-<img alt="App Screenshot" src="https://docs.google.com/uc?export=download&id=14y9a_iQ6V8RiMjhdxBZ3uR4Zc_yVkSMR" width="19%" />
+<img alt="App Screenshot" src="screenshots/news_compose_screenshot_05.png" width="19%" />
 </p>
 
+## Installation
+
+To build and run the application, follow these steps:
+
+1. Clone the repository.
+2. Open the project in Android Studio.
+3. Sync the project to download the required dependencies.
+4. Build and run the application on an emulator or connected device.
+
+## Usage
+
+You can explore the different features and components of the application by navigating through the code and running the app. Additionally, you can use Fastlane for automation tasks such as testing and releasing the application. Mockk can be used for writing unit tests with mocked dependencies.
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open a pull request. Please follow the established coding style and conventions.
+
 ## 🛠 Skills
-Kotlin, Android SDK, Clean Architecture, MVVM, Android Architecture Components, Retrofit, Dagger Hilt, Coroutines, Flow, OkHttp, Moshi, Coil, JetPack Compose, Material Design, Git.
+Kotlin, Android SDK, Clean Architecture, MVVM, Android Architecture Components, Retrofit, Dagger Hilt, Coroutines, Flow, OkHttp, Moshi, Coil, JetPack Compose, Material Design, Fastlane, Git, Junit, Mockk.
 
 ## License
 
